@@ -30,6 +30,7 @@ public class Main {
             if(arr[i] > arr[indexMax]){
                 indexMax = i;
             }
+
         }
         return arr[indexMax];
     }
