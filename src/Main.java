@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 2, 6, 7, 9, 4, 5};
         BubbleSort(arr);
-        getMaxFromArray(arr);
+        System.out.println(getMaxFromArray(arr));
 
     }
 
@@ -33,7 +33,7 @@ public class Main {
              }
 
         }
-        return arr[indexMax];
+        return  arr[indexMax];
     }
 }
 
