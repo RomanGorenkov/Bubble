@@ -24,5 +24,14 @@ public class Main {
         System.out.println();
         System.out.println("Sorted array: " + Arrays.toString(arr));
     }
+    public static int getMaxFromArray(int[] arr){
+        int indexMax = 0;
+        for (int i = 1; i <arr.length ; i++) {
+            if(arr[i] > arr[indexMax]){
+                indexMax = i;
+            }
+        }
+        return arr[indexMax];
+    }
 }
 
