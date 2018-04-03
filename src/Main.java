@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int[] arr = new int[]{3, 2, 6, 7, 9, 4, 5};
         BubbleSort(arr);
+        System.out.println(getMaxFromArray(arr));
 
     }
 
@@ -29,15 +30,10 @@ public class Main {
         for (int i = 1; i <arr.length ; i++) {
             if(arr[i] > arr[indexMax]){
                 indexMax = i ;
-            }
-
-
-
-
+             }
 
         }
         return  arr[indexMax];
     }
 }
-
 
